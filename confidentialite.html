@@ -72,13 +72,14 @@
   <header>
     <p class="app">Macronome</p>
     <h1>Politique de confidentialité</h1>
-    <p class="date">Dernière mise à jour : 22 novembre 2026</p>
+    <p class="date">Dernière mise à jour : 24 novembre 2026</p>
   </header>
 
   <div class="summary" role="note" aria-labelledby="bref">
     <h2 id="bref">En bref</h2>
     <ul>
       <li>Tes repas, ton profil et tes photos restent sur ton iPhone et dans tes propres sauvegardes.</li>
+      <li>Si tu l'autorises, l'app lit ton poids dans Apple Santé, sans rien y écrire ; tes pesées de Santé ne sont ni copiées ni envoyées.</li>
       <li>Macronome n'a ni compte, ni serveur, ni publicité, ni mesure d'audience. Le développeur ne voit pas tes données.</li>
       <li>Seules tes recherches de produits passent par Internet, vers Open Food Facts : le texte cherché ou le code-barres, rien d'autre sur toi. Les photos des produits viennent aussi de ses serveurs.</li>
       <li>Tu peux tout effacer à tout moment depuis l'app.</li>
@@ -97,7 +98,9 @@
     <ul>
       <li>tes repas : aliments, quantités, valeurs nutritionnelles, notes et photos de plats ;</li>
       <li>tes aliments récents et tes routines ;</li>
-      <li>tes objectifs et ton profil : sexe, année de naissance, taille, poids, niveau d'activité et objectif.</li>
+      <li>tes objectifs et ton profil : sexe, année de naissance, taille, poids, niveau d'activité et objectif ;</li>
+      <li>pour le coach : les pesées que tu notes à la main, ses réglages et ses bilans hebdomadaires (poids de tendance,
+        apports moyens, dépense estimée, objectif proposé et ta décision).</li>
     </ul>
     <p>Ces données sont enregistrées sur ton iPhone, dans l'espace réservé à l'app. Elles ne sont envoyées ni au développeur ni à personne d'autre.</p>
   </section>
@@ -112,6 +115,24 @@
     <h2 id="photos">Appareil photo et photos</h2>
     <p>L'appareil photo sert à scanner un code-barres, lire une étiquette nutritionnelle ou estimer un plat. Ces images sont analysées sur ton iPhone, par les outils d'Apple intégrés à l'appareil (dont Apple Intelligence quand ton iPhone le permet). Elles ne sont envoyées à aucun serveur.</p>
     <p>La photo d'une étiquette n'est pas gardée. La photo d'un plat est gardée avec le repas si tu l'enregistres, et suit tes sauvegardes.</p>
+  </section>
+
+  <section aria-labelledby="apple-sante">
+    <h2 id="apple-sante">Ton poids et Apple Santé</h2>
+    <p>Le coach peut lire ton poids dans l'app Santé d'Apple (celui de ta balance connectée, par exemple), si tu touches
+      « Lire mon poids dans Santé » et l'autorises. Macronome demande seulement à <strong>lire le poids</strong> : il n'écrit
+      rien dans Santé et ne lit aucune autre donnée.</p>
+    <ul>
+      <li>Les pesées de Santé (90 derniers jours) sont relues à chaque ouverture de l'app, une fois la lecture autorisée,
+        et servent seulement à calculer, sur ton iPhone, ta tendance et ta dépense réelle.</li>
+      <li>Elles ne sont jamais copiées : ni dans la base de l'app, ni dans tes sauvegardes, ni ailleurs. Elles ne sont
+        envoyées à personne et ne servent à aucune publicité.</li>
+      <li>Seuls les chiffres que l'app en calcule suivent tes sauvegardes, comme ton profil : ton poids de tendance, qui
+        devient le poids de ton profil, et, dans chaque bilan du coach, ce poids de tendance et son évolution par
+        semaine.</li>
+    </ul>
+    <p>Pour retirer l'autorisation : <strong>Réglages → Confidentialité et sécurité → Santé → Macronome</strong>.
+      Le coach continue alors avec les pesées notées à la main.</p>
   </section>
 
   <section aria-labelledby="off">
@@ -137,14 +158,14 @@
 
 
   <section aria-labelledby="sante">
-    <h2 id="sante">Santé</h2>
-    <p>Ton alimentation et ton profil sont des informations personnelles sensibles : c'est pourquoi elles ne quittent pas ton iPhone. Macronome ne remplace pas l'avis d'un médecin ou d'un diététicien, et le calcul des objectifs n'est pas proposé aux moins de 16 ans.</p>
+    <h2 id="sante">Avertissement santé</h2>
+    <p>Ton alimentation et ton profil sont des informations personnelles sensibles : c'est pourquoi elles ne quittent pas ton iPhone. Macronome ne remplace pas l'avis d'un médecin ou d'un diététicien, et le calcul des objectifs n'est pas proposé aux moins de 16 ans. Le coach ne propose jamais moins de 1 200 kcal par jour, et rien ne change sans ton accord.</p>
   </section>
 
   <section aria-labelledby="droits">
     <h2 id="droits">Effacer tes données et tes droits</h2>
     <ul>
-      <li>Dans l'app, <span class="path">Réglages → Données → Tout effacer</span> efface tes repas, récents, routines, objectifs, profil et réglages. Une dernière copie, « Avant effacement », est faite juste avant, pour pouvoir revenir en arrière.</li>
+      <li>Dans l'app, <span class="path">Réglages → Données → Tout effacer</span> efface tes repas, récents, routines, objectifs, profil, pesées notées à la main, bilans du coach et réglages. Les données de l'app Santé ne sont pas touchées. Une dernière copie, « Avant effacement », est faite juste avant, pour pouvoir revenir en arrière.</li>
       <li>Tes sauvegardes, cette copie comprise, se suppriment dans l'app Fichiers : <span class="path">iCloud Drive → Macronome</span>, ou <span class="path">Sur mon iPhone → Macronome</span> sans iCloud Drive.</li>
       <li>Supprimer l'app efface aussi les données gardées sur l'iPhone.</li>
     </ul>
